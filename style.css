@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+    background-color: grey;
+    /* margin: auto; */
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.card{
+    width: 600px;
+    height: 450px;
+    box-shadow: 10px 10px 15px rgb(90, 90, 90), -10px -10px 15px rgb(90, 90, 90);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+
+    font-size: 3rem;
+    padding-bottom: 27px;
+    margin-bottom: 15px;
+    
+     
+}
+
+#counter{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: green;
+}
+
+.prevBtn, .nextBtn, .resetBtn{
+    background-color: 	transparent;
+    font-size: 1.3rem;
+    /* outline: none; */
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    margin:  0.2rem;
+    border-color: #c0c0c0;
+    /* margin: 45px; */
+    border-radius: 5px;
+    margin-top: 27px;
+}
+
+.nextBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.prevBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.resetBtn:hover{
+    background-color: black;
+    color: white;
+}
